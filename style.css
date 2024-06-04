@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main {
+    display: flex;
+
+}
+.container {
+    max-width: 1200px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-weight: 400;
+
+
+}
+
+hr {
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.document {
+    margin-top: 30px;
+}
+
+.document p {
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.document h1 {
+    padding-bottom: 5px;
+}
+
+.document ul li {
+    padding-bottom: 15px;
+
+}
+
+.document ul {
+    padding-left: 15px;
+
+}
+
+.list {
+    margin-left: 18px;
+}
+
+.copy-code {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 15px 12px;
+    padding: 10px 20px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+header {
+    text-align: center;
+   margin-top: -5px;
+    color: rgb(132, 0, 255);
+    font-size: 22px;
+
+}
+header h1{
+    padding: 8px;
+}
+
+nav {
+    position: sticky;
+    top:0;
+    height: 100vh;
+}
+
+.side-nav {
+    /* margin-top: 50px; */
+     width: 18vw; 
+    height: 100vh;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.side-nav ul {
+    list-style: none;
+}
+
+.side-nav li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.side-nav li:hover {
+    background-color: #dcdada;
+    transition: 0.2s ease-in-out;
+    font-weight: 500;
+    color: purple;
+}
